@@ -1,0 +1,299 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #b8c6db;
+
+}
+
+
+header {
+    background-color:#ffffff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 18px;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.titulo{
+    display: flex;
+    justify-content: auto;
+    align-items: center;
+    font-size: 30px;
+   
+}
+.titulo1{
+    flex:1;
+    display: flex;
+    color:white ;
+    padding-left: 30px;
+}    
+   
+.titulo2{
+    flex:2;
+    display: flex;
+    color:rgb(245, 230, 230);
+    padding-left: 275px;
+    flex-direction: column;
+    text-align:center;
+    margin-bottom: 5px;
+}
+.titulo2 h6{
+    flex:3;
+    display: flex;
+    color:black;
+    flex-direction: column;
+    text-align:center;
+    margin-top: 0px;
+    background-color:rgb(245, 230, 230);
+    
+    
+}
+
+.imag-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    object-fit: cover;
+    
+
+}
+
+.imag-whatsapp {
+    flex:1;
+    display:flex;
+    justify-content: center;
+    bottom: 20px;
+}
+.imag-body img{
+    opacity: 0.85;
+
+}
+.text1-img{
+    display:inline-block;
+
+}
+.text1-img h2{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 280px;
+    left: 200px;
+    border-radius: 5px;
+
+}
+
+.text1-img h3{
+    flex:2;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 385px;
+    left: 280px;
+    border-radius: 5px;
+    background-color: #b8c6db;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.text1-img img{
+    flex:3;
+    display: flex;
+    top: 400px;
+    left: 100px;
+    justify-content: center;
+    position: absolute;
+    width: 75px; 
+    height: auto; 
+    
+}
+
+.imagen-whatsapp{
+    display: flex;
+    position:absolute;
+    top: 275px;
+}
+
+
+.body-inferior{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top: 600px;
+
+}
+
+.t1{
+    flex:1;
+    display: flex;
+    background-color: #b8c6db;
+    position:relative;
+    top:25px;
+    bottom: 25px;
+}
+.t2{
+    flex:1;
+    display: flex;
+    background-color: #b8c6db;
+    position:relative;
+    left: 260px;
+    bottom: 12px;;
+}
+.t3{
+    flex:1;
+    display: flex;
+    background-color:  #b8c6db;
+    position:relative;
+    top:30px;
+}
+
+
+
+label {
+    display: block; 
+    margin-bottom: 5px; 
+    background-color: #025db8;
+    border: none;
+    border-radius: 5px; 
+  
+}
+
+input {
+   
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+button {
+    background-color:  #deefff; 
+    color:black; 
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+
+}
+
+button:hover {
+    background-color: #45a049; 
+}
+
+.enviar{
+    flex:1;
+    display: flex;
+    background-color: #025db8;
+    position:relative;
+    left: 400px;
+    bottom: 90px;
+    width: 50px;
+    border: none;
+    border-radius: 5px; 
+
+}
+
+.nombre-ld{
+    display: flex;
+    top:30px;
+    flex-direction: column;
+    padding-right: 300px;
+    border: none;
+    border-radius: 5px; 
+    
+
+}
+.cedula-id{
+    display: flex;
+    top:30px;
+    flex-direction: column;
+    padding-right: 300px;
+    border: none;
+    border-radius: 5px; 
+}
+.sugerencia {
+    position: absolute; 
+    top: 269;
+    left: 650;
+    width:545px; 
+    height:260px;
+    background-color: rgba(255, 255, 255, 0.7); 
+    border: none;
+    resize: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #000; 
+    box-sizing: border-box; 
+}
+
+
+.icono {
+    width: 50px;
+    height: 50px;
+    align-self: flex-end;
+}
+
+footer {
+    background-color: #003366;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.copyright {
+    color: white;
+    text-align: left;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px; 
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
