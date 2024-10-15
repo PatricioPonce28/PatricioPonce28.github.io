@@ -81,6 +81,14 @@ main {
     margin-bottom: 20px;
 }
 
+@media screen and (max-width: 10000px) {
+    .img-peru {
+        color: #003366;
+        max-width: 400px;
+        border: none;
+    }
+}
+
 .texto {
     max-width: 600px;
 }
