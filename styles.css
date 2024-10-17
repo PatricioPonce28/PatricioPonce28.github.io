@@ -24,6 +24,12 @@ header {
     margin-right: 10px;
 }
 
+@media screen and (max-width: 600px) {
+    .logo img {
+        max-width: 300px;
+    }
+}
+
 .logo h1 {
     font-size: 18px;
     margin: 0;
